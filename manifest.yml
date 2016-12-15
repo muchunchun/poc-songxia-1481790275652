@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: poc-songxia
+  host: poc-songxia
+  disk_quota: 1024M
+  services:
+  - Conversation-s7
+  env:
+    WORKSPACE_ID: ea46dc67-6132-43c3-b331-73c4208a02fd
